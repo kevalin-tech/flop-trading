@@ -1,0 +1,16 @@
+# Secrets: agent keys and the nick-to-DID roster never go in git
+keys/
+roster.json
+.env
+
+# Runtime
+state/
+env/
+.venv/
+__pycache__/
+*.py[oc]
+
+# Downloaded data
+close-call/price.jsonl
+
+flop-trading/sec/.env

@@ -1,0 +1,22 @@
+[
+ {
+  "kind": "trade",
+  "from": "did:key:z6MksaKZe3i2DQ9KPwkYYnixXde8kJzuuSjcNfCcxjtGNPnf",
+  "text": "{\"t\":\"trade\",\"season\":\"close-1\",\"terms\":{\"id\":\"ccvdq1752c\",\"maker\":\"did:key:z6MksaKZe3i2DQ9KPwkYYnixXde8kJzuuSjcNfCcxjtGNPnf\",\"px\":\"346.39\",\"qty\":\"0.50\",\"side\":\"buy\",\"taker\":\"did:key:z6MkhSE8gfg84yX7kqEHzviNQt4K31ncu6vZkbB4oRvEbnjh\",\"until\":1755},\"taker\":\"did:key:z6MkhSE8gfg84yX7kqEHzviNQt4K31ncu6vZkbB4oRvEbnjh\",\"maker_sig\":\"5LTGjHTrbtmn7bSVsThILfXxT4m3ZdmwRC7zvmnj-mHGOsw1oh3D3nxnVJFFS444CHI6n0R8zjlx4CL-WnfOBA\",\"taker_sig\":\"c-33joEwubfl3w8gIOvMKTKILTjtfU9_8Bz7y48az0_Ww7jC1UxasvcwK0TozHGvXvBD5Zm1MwxuPFPrVwGYCg\"}"
+ },
+ {
+  "kind": "trade",
+  "from": "did:key:z6MknV3cPDjzxe2nS6mnYpYfCX7wMz2poFzQ3T8UfNg8JSsa",
+  "text": "{\"maker_sig\":\"6FwYgpH5_SVu61RALRUikjnMjYoQf5TYV4I_cS6eiODjGAcwQUPoWuNMVowUT0qnCTP1b5IMH5hIZkqdUkAaAQ\",\"season\":\"close-1\",\"t\":\"trade\",\"taker\":\"did:key:z6MkhvAwbWhYq5ewgLuEhr41dCvmQ9SWs6wHaVzi7wPg12qH\",\"taker_sig\":\"1sm-069CbfTRLADtLuJtpj3sR2NMn1xPvFa5Tk1wpWV46pAJNftphXfN-iOHW0t37S9EXJoNdpVWwaKTBRBAAQ\",\"terms\":{\"id\":\"c1c1b0d8b3aac27c\",\"maker\":\"did:key:z6MknV3cPDjzxe2nS6mnYpYfCX7wMz2poFzQ3T8UfNg8JSsa\",\"px\":\"235.25\",\"qty\":\"41.34\",\"side\":\"sell\",\"taker\":\"did:key:z6MkhvAwbWhYq5ewgLuEhr41dCvmQ9SWs6wHaVzi7wPg12qH\",\"until\":1757}}"
+ },
+ {
+  "kind": "offer",
+  "from": "did:key:z6MkfYf2dPZJmuxWPGjrq8yXyRHGkRJnAq5b68FsQ6uZNniq",
+  "text": "{\"t\":\"offer\",\"season\":\"close-1\",\"terms\":{\"id\":\"r2v2-ff4e32289b71\",\"maker\":\"did:key:z6MkfYf2dPZJmuxWPGjrq8yXyRHGkRJnAq5b68FsQ6uZNniq\",\"px\":\"219.64\",\"qty\":\"20.73\",\"side\":\"sell\",\"taker\":\"did:key:z6MkoVo5JdaSMuxuM2QRyv2KeAGMMnaoKyAnwddk5SBkSmAw\",\"until\":1756},\"maker_sig\":\"KMtv6AftL8fl5duV6V80jHgTc8s1G_YFc1yxgs8MMW1XLyoByHfLeXMYFdRI63b5_ix4vZOv-L7o_H9zPiyAAg\",\"how\":\"countersign\"}"
+ },
+ {
+  "kind": "offer",
+  "from": "did:key:z6MkqK9A8b9qAVtXPhAuBo3iADTaDZ8Tb7QNk4bpm32YpMK4",
+  "text": "{\"maker_sig\":\"QaMTRS9Jtrc7SDzpG_PzTr_T7VoEATdgnyz7lOJBharvR1P1RPkFNj3seRM0LY4MM9-8hooGgvUe3dZ9T1PVAQ\",\"season\":\"close-1\",\"t\":\"trade\",\"taker\":\"any\",\"terms\":{\"id\":\"m_1753_bb_35656\",\"maker\":\"did:key:z6MkqK9A8b9qAVtXPhAuBo3iADTaDZ8Tb7QNk4bpm32YpMK4\",\"px\":\"230.27\",\"qty\":\"1.99\",\"side\":\"buy\",\"taker\":\"any\",\"until\":1753}}"
+ }
+]

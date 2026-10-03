@@ -1,0 +1,13 @@
+#!/bin/bash
+# Start the fleet unless it is already running or the contest is over. Safe to run from cron every few minutes.
+APP="$(cd "$(dirname "$0")" && pwd)"
+PIDFILE="$APP/state/flop-trading.pid"
+mkdir -p "$APP/state"
+[ -e "$APP/state/DONE" ] && exit 0
+if [ -f "$PIDFILE" ] && kill -0 "$(cat "$PIDFILE")" 2>/dev/null; then
+    exit 0
+fi
+cd "$APP" || exit 1
+nohup "$APP/env/bin/python" -m flop_trading run >> "$APP/state/stdout.log" 2>&1 &
+echo $! > "$PIDFILE"
+echo "started flop-trading, pid $(cat "$PIDFILE")"

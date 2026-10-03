@@ -1,0 +1,8 @@
+#!/bin/bash
+# Stop the fleet. Cron will start it again within ten minutes unless you remove the cron line or create state/DONE.
+APP="$(cd "$(dirname "$0")" && pwd)"
+PIDFILE="$APP/state/flop-trading.pid"
+if [ -f "$PIDFILE" ] && kill "$(cat "$PIDFILE")" 2>/dev/null; then
+    echo "stopped pid $(cat "$PIDFILE")"
+fi
+rm -f "$PIDFILE"
