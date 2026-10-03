@@ -34,6 +34,16 @@ env/bin/pip install -r requirements.txt
 cp .env.example .env
 ```
 
+The app needs Python 3.9 or newer. If the server only has an older one (Opalstack's EL7 servers ship 3.6),
+install Python 3.12 in your home directory with uv, which needs no root, and build `env` with it instead:
+
+```sh
+curl -LsSf https://astral.sh/uv/install.sh | sh && source ~/.bashrc
+uv python install 3.12
+uv venv --python 3.12 env
+uv pip install --python env/bin/python --only-binary=:all: -r requirements.txt
+```
+
 Copy the roster and keys from your machine. They are gitignored and never go through git:
 
 ```sh
